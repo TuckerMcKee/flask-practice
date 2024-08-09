@@ -19,3 +19,10 @@ def div(a, b):
     """Divide a by b."""
 
     return a / b
+
+math_dict = {
+    'add': add,
+    'sub': sub,
+    'mult': mult,
+    'div': div
+}
